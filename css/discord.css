@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+.Home-content {
+    width: 100%;
+    height: 95vh;
+    background-color: #404eed;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+svg {
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+.menu-items {
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: none;
+
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px 0 20px;
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.header-name {
+    margin-top: 2rem;
+    font-family: inherit;
+    color: #fff;
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .8fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 450px;
+
+}
+
+.mainhead {
+    letter-spacing: 13px;
+    line-height: 95%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    font-size: 90px;
+    grid-row: 1/2;
+    font-weight: 900;
+}
+
+.header-name p {
+    font-size: 25px;
+    line-height: 1.625;
+    width: 1030px;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 150px;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 30;
+    bottom: 100px
+}
+
+.button-2 {
+    background-color: #fff;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 25px;
+    padding: 16px 32px;
+    cursor: pointer;
+
+}
+
+.button-2:hover {
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.for-win {
+    margin-right: 20px;
+}
+
+.for-win i {
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.for-bro {
+    background-color: black;
+    color: #fff;
+}
+
+.home-backgroundimg {
+    position: relative;
+}
+
+.backgroundimg2 {
+    position: absolute;
+    height: 455px;
+    bottom: 82px;
+    left: -450px;
+}
+
+.backgroundimg3 {
+    position: absolute;
+    height: 455px;
+    bottom: 81px;
+    right: -389px;
+}
+
+.backgroundimg1 {
+    position: absolute;
+    bottom: 82px;
+    height: 800px;
+    left: -750px;
+}
+
+.section2 {
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: end;
+}
+
+.section-img img {
+    width: 850px;
+
+}
+
+.section-text {
+    height: 440px;
+    margin-right: 200px;
+}
+
+.section-text h2 {
+    width: 330px;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 120%;
+    color: #000;
+    margin: 0;
+}
+
+.section-text p {
+    width: 563px;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(78, 74, 74);
+}
+
+.section3-img {
+    margin-right: 5.2rem;
+}
+
+
+
+
+
+.section2 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: end;
+}
+
+.section-text2 h2 {
+    width: 584px;
+}
+
+.sectionbg {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.section-4 {
+    text-align: center;
+    height: 165vh;
+    background-color: #f6f6f6;
+}
+
+.section-4 img {
+    width: 1600px;
+
+}
+
+.buttonblue {
+    background-color: #5865f2;
+    color: #fff;
+}
+
+footer {
+    background-color: #23272a;
+    width: 100%;
+}
+
+.footer-section1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 6rem;
+}
+
+.footer-list h5 {
+    margin: 0 0 1rem 0;
+    color: #5865f2;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer-list a {
+    margin: 0 0 .5rem 0;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-list a {
+    display: block;
+    padding: 5px;
+}
+
+.footer-title img {
+    width: 30px;
+}
+
+.footer-title h2 {
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 95%;
+    color: #404eed;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+}
+
+.footer-title span {
+    font-size: 19px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.ri-twitter-fill,
+.ri-instagram-line,
+.ri-facebook-box-fill,
+.ri-youtube-fill {
+    color: #fff;
+    width: 8px;
+}
+.social-icons i{
+width:20px
+}
+.line{
+    margin:0 5rem 2rem 4rem;
+    height: 2px;
+    background-color: #404eed;
+}
+.footer-end{
+display: grid;
+height: 100px;
+margin:0 4rem 0 4rem;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+.footer-end .footer-button{
+    justify-self: end;
+    color: #f6f6f6;
+    background-color: #404eed;
+}
